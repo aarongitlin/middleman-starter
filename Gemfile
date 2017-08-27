@@ -15,3 +15,5 @@ gem "neat", "~> 2.1"
 gem "rake", "~> 12.0"
 gem "redcarpet", "~> 3.4"
 gem "sass", "~> 3.4"
+
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
