@@ -57,7 +57,8 @@ activate :deploy do |deploy|
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
 
-# configure :build do
+configure :build do
+  activate :relative_assets # to make deployment to github pages easier
 #   activate :minify_css
 #   activate :minify_javascript
-# end
+end
